@@ -15,8 +15,11 @@ la Docker CLI sans la complexité d'avoir à se souvenir des commandes CLI embê
 ## Prerequisites
 
 On a besoin d'installer:
+
 -Docker
+
 -Portainer
+
 -......
 
 ## Installation
