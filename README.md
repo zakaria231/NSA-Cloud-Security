@@ -5,8 +5,8 @@ Quatre Vms ont été fournis (front, API, base de donnée et le service de monit
 
 ## Portainer 
 
-Portainer est une interface de gestion légère qui permet de gérer plusieurs environnement docker (Dockers hosts or
-Swarm Cluster).
+Portainer est une interface de gestion légère qui permet de gérer plusieurs environnement docker.
+
 Portainer rend Docker facile à utiliser, facile à gérer et facile à prendre en charge.
 Il Fournit une véritable visibilité sur la gestion opérationnelle de l'environnement Docker
 Interface utilisateur propre, simple, mais puissante qui expose près de toutes les fonctions de 
