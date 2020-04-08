@@ -12,4 +12,44 @@ Il Fournit une véritable visibilité sur la gestion opérationnelle de l'enviro
 Interface utilisateur propre, simple, mais puissante qui expose près de toutes les fonctions de 
 la Docker CLI sans la complexité d'avoir à se souvenir des commandes CLI embêtantes.
 
+## Prerequisites
+
+On a besoin d'installer:
+-Docker
+-Portainer
+-......
+
+## Installation
+
+Docker installation
+```
+sudo apt install docker.io -y
+```
+Une fois l'installation terminée, démarrez le service Docker et activez-le à chaque démarrage au démarrage du système.
+```
+systemctl start docker
+systemctl enable docker
+```
+Portainer installation
+Avant d'installer Portainer, téléchargez l'image Portainer depuis le DockerHub à l'aide de la commande puller docker ci-dessous.
+```
+docker pull portainer/portainer
+```
+Exécuter Portainer
+```
+docker run -d -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock portainer/portainer
+```
+Portainer fonctionne maintenant en tant que conteneur, vérifiez-le à l'aide de la commande docker ps.
+```
+docker ps
+```
+Portainer fonctionne maintenant en tant que conteneur Docker, et il fonctionne sous le port 9000.
+Configurer le mot de passe administrateur pour Portainer.
+```
+http://0.0.0.0:9000/
+```
+La page sur la configuration de l'utilisateur administrateur et du mot de passe est disponible sous l'adresse IP du serveur avec le port 9000.
+
+
+
 
