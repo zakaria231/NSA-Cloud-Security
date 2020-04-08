@@ -28,13 +28,15 @@ Docker installation
 ```
 sudo apt install docker.io -y
 ```
-Une fois l'installation terminée, démarrez le service Docker et activez-le à chaque démarrage au démarrage du système.
+
+Démarrer le service Docker et activer-le à chaque démarrage du système.
 ```
 systemctl start docker
 systemctl enable docker
 ```
 Portainer installation
-Avant d'installer Portainer, téléchargez l'image Portainer depuis le DockerHub à l'aide de la commande puller docker ci-dessous.
+
+Télécharger l'image Portainer depuis le DockerHub à l'aide de la commande puller docker ci-dessous.
 ```
 docker pull portainer/portainer
 ```
