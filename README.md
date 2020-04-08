@@ -1,5 +1,5 @@
 # NSA-Cloud-Security
-Le but du projet est de faire fonctionner une plate-forme web, mettre en place un systeme d’intégration et de déplooiment 
+Le but du projet est de faire fonctionner une plate-forme web, mettre en place un systeme d’intégration et de déploiment 
 avec Gitlab et enfin tester le tout afin de chercher les vulnérabilités et corriger chaque vulnérabilité.
 Quatre Vms ont été fournis (front, API, base de donnée et le service de monitoring gérré par Portainer)
 
